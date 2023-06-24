@@ -26,11 +26,11 @@ div.interactive-26HRN_:has( a.link-39sEB3[data-list-item-id$="___nitro"] ) {
     display:none;
 }
 
-/* remove edit and create invite buttons from channels */
-.iconItem-1EjiK0.iconBase-2G48Fc[aria-label="Edit Channel"] {
+/* Remove edit and create invite buttons from channels */
+.children-1MGS9G .iconItem-1EjiK0[aria-label*="Edit Channel"] {
     display:none;
 }
-.iconItem-1EjiK0.iconBase-2G48Fc[aria-label="Create Invite"] {
+.children-1MGS9G .iconItem-1EjiK0[aria-label*="Invite"] {
     display:none;
 }
 
