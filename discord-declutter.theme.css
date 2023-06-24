@@ -13,13 +13,27 @@ div.interactive-26HRN_:has( a.link-39sEB3[data-list-item-id$="___nitro"] ) {
     display: none;
 }
 
-/* Hide activity button in streams*/
+/* Hide activity and camera button in streams */
 .buttonContainer-1sjtPU > div > div > button[aria-label="Start an Activity"] {
     display: none;
 }
+.controlButton-2PMNom:has(button[aria-label^="Turn On Camera"]){
+    display: none;
+}
+
+/* Remove gradient from streams */
+.gradientContainer-phMG8d {
+    display:none;
+}
+
 
 /* Round corners be gone (for images) */
 .imageWrapper-oMkQl4, .messageAttachmentMediaMosaic-2ic1yt, .oneByOneGridSingle-2ss-Zx, .embedVideo-2ixt5A, .embedVideo-2ixt5A img, .embedVideo-2ixt5A video,  .embedImage-2Ynqkh *, .wrapper-1FP9YQ, .embedMedia-1mdWSP, .embedVideoImageComponent-3Clc3C, .mediaAttachmentsContainer-1WGRWy {
+    border-radius: 0!important;
+}
+
+/* Round corners be gone (for streams) */
+.tile-2Dr6M1:has(.videoWrapper-3rtb_V) {
     border-radius: 0!important;
 }
 
