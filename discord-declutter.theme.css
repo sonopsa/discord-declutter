@@ -1,0 +1,105 @@
+/* Hide Nitro gift button */
+button[aria-label="Send a gift"] {
+    display: none;
+}
+
+/* Hide annoying sticker popup window that appears when you type */
+.channelTextArea-1FufC0 > .container-1ZA19X {
+    display: none;
+}
+
+/* Hide Nitro button in DMs */
+div.interactive-26HRN_:has( a.link-39sEB3[data-list-item-id$="___nitro"] ) {
+    display: none;
+}
+
+/* Hide activity button in streams*/
+.buttonContainer-1sjtPU > div > div > button[aria-label="Start an Activity"] {
+    display: none;
+}
+
+/* Round corners be gone (for images) */
+.imageWrapper-oMkQl4, .messageAttachmentMediaMosaic-2ic1yt, .oneByOneGridSingle-2ss-Zx, .embedVideo-2ixt5A, .embedVideo-2ixt5A img, .embedVideo-2ixt5A video,  .embedImage-2Ynqkh *, .wrapper-1FP9YQ, .embedMedia-1mdWSP, .embedVideoImageComponent-3Clc3C, .mediaAttachmentsContainer-1WGRWy {
+    border-radius: 0!important;
+}
+
+/* Remove inbox, help, notification settings, show user profile and video call from top bar */
+.recentsIcon-F3eO1o {
+    display:none;
+}
+.anchor-1X4H4q[href^="https://support.discord.com"] {
+    display:none;
+}
+.iconWrapper-2awDjA[aria-label^="Notification Settings"] {
+    display:none;
+}
+.iconWrapper-2awDjA[aria-label^="Show User Profile"] {
+    display: none;
+}
+.iconWrapper-2awDjA[aria-label^="Start Video Call"] {
+    display: none;
+}
+
+/* Remove divider for events and browse channels */
+.scroller-1ox3I2 ul.content-yjf30S[aria-label="Channels"] li.containerDefault-3TQ5YN:first-of-type {
+    padding-top: 8px;
+}
+.scroller-1ox3I2 ul.content-yjf30S[aria-label="Channels"] > .sectionDivider-189lqb {
+    display: none;
+}
+.containerDefault-YUSmu3:is( div ):has( .iconVisibility-vptxma ) {
+    display: none;
+}
+
+/* Remove Boost bar at the top of channel list (still kepps boost level and number) */
+.progressBarContainer-1efroK {
+    display:none;
+}
+
+/* Remove badges from tooltops */
+.rowGuildName-21wur6 div[role="button"] {
+    display: none;
+}
+
+/* 
+                ..........:....:~77~            
+                .........:::.  .~!^.            
+                                ..              
+!!^.                        .:...       ...     
+^7??7!!!!7!777777!!7??!77!!!!~^....::.  ^!!.    
+^~7?Y55PGGPPPP5PPPYY55Y5PPYJJJ?!^::.:.          
+?JY55YY5P5555YY5G5Y55YYYP5YYY55J?7!!^.          
+J?7777!77??YYJYPPYJJJ?777!~!!77??JJJ?^          
+        ..:~7?YPGYJ?~:..         :7YYJ^.        
+          :~7?5PP5Y?!^.          :?55YY7:       
+:.       .7?JYPP5YYJJ7^    . .:^!Y55YJ??7:      
+5YJ???J?~~77J5PP5YYYJ7!~7JYYYY5P5YJ?7!~^!~      
+5PPGGGGPY?!!7JYYYJYJ?!7YPPPPPP5Y?!~^::^~^:      
+!?YY5PP5J7^:~~!~~~^^^^!J555YJJ?!:.   ..:^.      
+.^~7?JYYJ!   ...     :!?JJJ777~^.      .:.      
+.^~!77??JJ7^       .^77777!~~^^:.      .:       
+...:::::^^^:.      .:^^^::.......    ..^~:      
+                                   ...:!??!.    
+                                   .:^!?JYYJ^.  
+                                  :^!77JYJJYY7: 
+                                .^!7??JJJJYJJJJ7
+..                            .:~!7???JJJJYYYYYJ
+^^::...                     .:^~~!7????JJJJJJJ?J
+ */
+.wrapper-3kah-n .childWrapper-1j_1ub, .wrapper-3kah-n .childWrapper-1j_1ub {
+    background-image: url( https://i.imgur.com/JegmhsQ.png );
+    background-size: cover;
+}
+
+.homeIcon-r0w4ny {
+    display: none;
+}
+
+.wrapper-3kah-n .childWrapper-1j_1ub, .wrapper-3kah-n .childWrapper-1j_1ub {
+    background-image: url( https://i.imgur.com/JegmhsQ.png );
+    background-size: cover;
+}
+
+.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub {
+    background-image: url( https://i.imgur.com/VHiPyYP.png );
+}
