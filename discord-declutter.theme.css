@@ -52,6 +52,11 @@ div.interactive-26HRN_:has( a.link-39sEB3[data-list-item-id$="___nitro"] ) {
     border-radius: 0!important;
 }
 
+/* Round corners be gone (for gif search) */
+.gif-2kTiNB, .focused-16Owih:after, .result-pzZrwj:after {
+    border-radius: 0;
+}
+
 /* Round corners be gone (for streams) */
 .tile-2Dr6M1:has(.videoWrapper-3rtb_V) {
     border-radius: 0!important;
