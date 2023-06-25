@@ -3,6 +3,11 @@ button[aria-label="Send a gift"] {
     display: none;
 }
 
+/* Hide Super React buttons */
+.button-3bklZh[aria-label="Add Super Reaction"], .item-5ApiZt.colorPremiumGradient-38tGFG{
+    display: none;
+}
+
 /* Hide annoying sticker popup window that appears when you type */
 .channelTextArea-1FufC0 > .container-1ZA19X {
     display: none;
@@ -51,7 +56,7 @@ div.interactive-26HRN_:has( a.link-39sEB3[data-list-item-id$="___nitro"] ) {
 }
 
 /* Round corners be gone (for gif search) */
-.gif-2kTiNB, .focused-16Owih:after, .result-pzZrwj:after {
+.gif-2kTiNB, .focused-16Owih:after, .result-pzZrwj:after, .result-pzZrwj > div[class^="categoryFade"]{
     border-radius: 0;
 }
 
