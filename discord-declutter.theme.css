@@ -8,11 +8,6 @@ button[aria-label="Send a gift"] {
     display: none;
 }
 
-/* Hide annoying sticker popup window that appears when you type */
-.channelTextArea-1FufC0 > .container-1ZA19X {
-    display: none;
-}
-
 /* Hide Nitro button in DMs */
 div.interactive-26HRN_:has( a.link-39sEB3[data-list-item-id$="___nitro"] ) {
     display: none;
