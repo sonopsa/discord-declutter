@@ -35,7 +35,7 @@ div.interactive-26HRN_:has( a.link-39sEB3[data-list-item-id$="___nitro"] ) {
 }
 
 /* Make voice-text-chat button easier to click and reduces left/right channel padding */
-.iconBase-2G48Fc[aria-label="Open Chat"] {
+/* .iconBase-2G48Fc[aria-label="Open Chat"] {
     padding: 6px 6px 9px 6px;
 }
 .children-1MGS9G:has(.iconItem-1EjiK0.iconBase-2G48Fc[aria-label="Open Chat"]) {
@@ -43,7 +43,7 @@ div.interactive-26HRN_:has( a.link-39sEB3[data-list-item-id$="___nitro"] ) {
 }
 .content-1gYQeQ {
     padding: 0px 0px
-}
+} */
 
 /* Round corners be gone (for images) */
 .imageWrapper-oMkQl4, .messageAttachmentMediaMosaic-2ic1yt, .oneByOneGridSingle-2ss-Zx, .embedVideo-2ixt5A, .embedVideo-2ixt5A img, .embedVideo-2ixt5A video,  .embedImage-2Ynqkh *, .wrapper-1FP9YQ, .embedMedia-1mdWSP, .embedVideoImageComponent-3Clc3C, .mediaAttachmentsContainer-1WGRWy {
