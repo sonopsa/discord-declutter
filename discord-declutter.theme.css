@@ -140,3 +140,18 @@ J?7777!77??YYJYPPYJJJ?777!~!!77??JJJ?^
 .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub {
     background-image: url( https://i.imgur.com/VHiPyYP.png );
 }
+
+div li.containerDefault-YUSmu3.wrapper-NhbLHG:has(path[d="M14 8.00598C14 10.211 12.206 12.006 10 12.006C7.795 12.006 6 10.211 6 8.00598C6 5.80098 7.794 4.00598 10 4.00598C12.206 4.00598 14 5.80098 14 8.00598ZM2 19.006C2 15.473 5.29 13.006 10 13.006C14.711 13.006 18 15.473 18 19.006V20.006H2V19.006Z"]){
+    display: none;
+}
+div li.containerDefault-YUSmu3.wrapper-NhbLHG:has(path[d="M10.4 14C10.4 12.0118 12.0118 10.4 14 10.4C15.9883 10.4 17.6 12.0118 17.6 14C17.6 14.7775 17.3536 15.4975 16.9345 16.0859L18.9243 18.0758C19.1586 18.3101 19.1586 18.69 18.9243 18.9243C18.69 19.1586 18.3101 19.1586 18.0758 18.9243L16.0859 16.9345C15.4975 17.3536 14.7775 17.6 14 17.6C12.0118 17.6 10.4 15.9883 10.4 14ZM14 11.6C12.6745 11.6 11.6 12.6745 11.6 14C11.6 15.3255 12.6745 16.4 14 16.4C15.3255 16.4 16.4 15.3255 16.4 14C16.4 12.6745 15.3255 11.6 14 11.6Z"]){
+    display: none;
+}
+
+[aria-label^="Add Super Reaction"] {
+    display: none;
+}
+
+[aria-label="Start an Activity"] {
+    display: none;
+}
