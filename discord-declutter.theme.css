@@ -13,6 +13,11 @@ div.interactive-26HRN_:has( a.link-39sEB3[data-list-item-id$="___nitro"] ) {
     display: none;
 }
 
+/* Hide Shop button in DMs */
+div.interactive-26HRN_:has( a.link-39sEB3[data-list-item-id$="___shop"] ) {
+    display: none;
+}
+
 /* Hide activity and camera button in streams */
 .buttonContainer-1sjtPU > div > div > button[aria-label="Start an Activity"] {
     display: none;
